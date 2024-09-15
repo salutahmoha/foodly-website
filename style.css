@@ -4,6 +4,38 @@
   box-sizing: border-box;
 }
 
+:root{
+  --text-color: black;
+}
 html{
   font-size: 62.5%;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+.nav-items{
+  text-decoration: none;
+}
+
+.nav{
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-items a{
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-items a:hover{
+  
+}
+
+.logo-text{
+  font-size: 2rem;
+  font-weight: 700;
 }
