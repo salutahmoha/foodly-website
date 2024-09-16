@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,36 +13,36 @@
   --color-white: #fff;
   scroll-behavior: smooth;
 }
-html{
+html {
   font-size: 62.5%;
 }
-.header-title{
+.header-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3rem;
 }
-.nav-items{
+.nav-items {
   text-decoration: none;
 }
 
-.nav{
+.nav {
   display: flex;
   gap: 3rem;
 }
 
-.nav-items a{
+.nav-items a {
   font-size: 1.8rem;
   text-decoration: none;
   color: var(--text-color);
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
-.nav-items a:hover{
+.nav-items a:hover {
   color: var(--color-primary);
 }
 
-.logo-text{
+.logo-text {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -94,9 +94,66 @@ html{
     font-size: 4rem;
     flex-wrap: nowrap;
   }
-  
+
   .home-container h3 {
     margin: 2rem 35%;
   }
 }
 /* End of Home stylings */
+
+/* About stylings */
+.about-section {
+  padding-top: 3rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+  width: 100%;
+}
+
+.about-text {
+  width: 50%;
+  padding-right: 4rem;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about-text p {
+  width: 100%;
+  text-align: justify;
+  font-size: 1.8rem;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+  background: var(--color-tertiary);
+  margin-top: 1rem;
+}
+.about-info {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-info-div {
+  border: 1px solid var(--color-black);
+  width: 23rem;
+  height: 10rem;
+  text-align: center;
+}
+.about-info-div h2 {
+  font-size: 5rem;
+}
+
+.about-info-div p {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
