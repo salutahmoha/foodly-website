@@ -240,3 +240,48 @@ body {
   margin: 2rem 45%;
 }
 /* End of menu stylings */
+/* Chef section stylings */
+
+.chef-section h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.chef-section{
+  margin-top: 5rem;
+}
+.chef-container{
+  margin: 2rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chef-div{
+  width: 20rem;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.chef-div img{
+  width: 100%;
+  height: 27rem;
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 95%, 0% 100%);
+}
+
+.chef-div h4{
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.horizontal-line{
+  width: 20rem;
+  border: 1.5px dashed var(--color-primary);
+}
+.socials{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2.5rem;
+  padding-left: 1rem;
+}
+/* End of Chef section stylings */
