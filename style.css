@@ -285,3 +285,93 @@ body {
   padding-left: 1rem;
 }
 /* End of Chef section stylings */
+
+/* Testimonies Section */
+.testimonies-section{
+  margin: 10rem 3rem;
+}
+
+.testimonies-section h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.testimonies-container{
+  display: flex;
+  margin: 2rem 3rem;
+}
+.testimonies-vid{
+  width: 45%;
+  padding-right: 3rem;
+}
+
+.testimonies-vid video{
+  width: 100%;
+}
+
+.testimonies-text{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.testimonies-response{
+  width: 45%;
+  border: 1px solid black;
+  height: 48%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.individual-img img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.testimonies-response p{
+  font-size: 1.6rem;
+}
+.testimony-individual{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.individual-title h5{
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.individual-title p{
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+
+/* End of Testimonies section */
+
+/* Footer section stylings */
+.footer-section{
+  background: var(--color-black);
+  height: 10rem;
+  color: var(--color-white);
+}
+
+.footer-section h5{
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-section h4{
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 1rem;
+  background: var(--color-tertiary);
+  width: 20%;
+  margin: 0rem 40%;
+  border-radius: 0.5rem;
+}
+/* End of Footer section stylings */
